@@ -1,6 +1,23 @@
 $wrapperwidth: 80%;
 .wrapper {
-    width: 80%;
-    background-color: black;
     margin: 0 auto;
+}
+
+header {
+    background-image: url(/IMG/navigation_background.png);
+    height: 118.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 18px;
 }

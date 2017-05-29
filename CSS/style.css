@@ -1,7 +1,24 @@
 /* line 2, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 .wrapper {
-  width: 80%;
-  background-color: black;
   margin: 0 auto; }
+
+/* line 6, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+header {
+  background-image: url(/IMG/navigation_background.png);
+  height: 118.5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+/* line 14, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+nav li {
+  list-style: none;
+  display: inline-block; }
+
+/* line 19, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-right: 18px; }
 
 /*# sourceMappingURL=style.css.map */
