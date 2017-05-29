@@ -42,15 +42,22 @@ main {
   background-image: url(/IMG/main_background.png); }
 
 /* line 44, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+.slideshow {
+  width: 55%; }
+  /* line 46, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  .slideshow img {
+    width: 100%; }
+
+/* line 51, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 .info {
   padding-left: 25px;
   padding-top: 10px; }
-  /* line 47, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  /* line 54, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   .info img {
     border: solid black 1px;
     margin: 0 20px 20px 0; }
 
-/* line 53, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+/* line 60, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 footer {
   height: 55px;
   background-image: url(/IMG/footer_background.png);

@@ -41,6 +41,13 @@ main {
     background-image: url(/IMG/main_background.png);
 }
 
+.slideshow {
+    width: 55%;
+    img {
+        width: 100%;
+    }
+}
+
 .info {
     padding-left: 25px;
     padding-top: 10px;
