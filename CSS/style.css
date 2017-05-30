@@ -74,36 +74,68 @@ produkterMain {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+  /* line 76, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  produkterMain img {
+    width: 49%;
+    margin-bottom: 1px; }
+  /* line 80, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  produkterMain img:hover {
+    transform: scale(1.1); }
 
-/* line 78, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
-.produkter img {
-  width: 49%;
-  margin-bottom: 1px; }
-
-/* line 83, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
-.produkter img:hover {
-  transform: scale(1.1); }
-
-/* line 87, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+/* line 85, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 .info {
   padding-left: 25px;
   padding-top: 10px; }
-  /* line 90, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  /* line 88, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   .info img {
     border: solid white 2.9px;
     margin: 0 20px 20px 0;
     width: 400px; }
-  /* line 95, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  /* line 93, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   .info img:hover {
     transform: scale(1.1); }
-  /* line 98, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  /* line 96, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   .info img:nth-child(1) {
     margin-right: 35px; }
-  /* line 101, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  /* line 99, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   .info img:nth-child(2) {
     margin-right: 35px; }
+  /* line 102, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  .info h2 {
+    position: absolute;
+    top: 600px;
+    left: 750px;
+    font-size: 3em;
+    width: 100%; }
+  /* line 109, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  .info h2 span {
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: black;
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; }
+  /* line 118, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  .info h2 span.spancer {
+    padding: 0 5px; }
 
-/* line 106, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+/* line 123, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+.clubBS {
+  width: 500px; }
+  /* line 125, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  .clubBS img {
+    width: 100%; }
+
+/* line 130, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+.Clubtext {
+  background-color: #f1f1f1;
+  opacity: 0.7; }
+  /* line 133, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  .Clubtext p:hover {
+    background-color: blueviolet; }
+
+/* line 138, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 footer {
   height: 55px;
   background-image: url(/IMG/footer_background.png);
@@ -111,12 +143,12 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around; }
 
-/* line 114, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+/* line 146, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 form {
   width: 21%;
   padding-left: 4%; }
 
-/* line 119, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+/* line 151, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 input[type=text],
 select {
   width: 100%;
@@ -127,7 +159,7 @@ select {
   border-radius: 4px;
   box-sizing: border-box; }
 
-/* line 130, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+/* line 162, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 input[type=submit] {
   width: 100%;
   background-color: blueviolet;
@@ -138,7 +170,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer; }
 
-/* line 141, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+/* line 173, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 input[type=submit]:hover {
   background-color: blue; }
 
