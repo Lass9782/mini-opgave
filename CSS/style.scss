@@ -62,12 +62,26 @@ section {
 .slideshow {
     width: 68%;
 }
+produkterMain{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produkter img{
+    width: 49%;
+    margin-bottom: 1px;
+}
+.produkter img:hover{
+    transform:scale(1.1);
+    
+}
 
 .info {
     padding-left: 25px;
     padding-top: 10px;
     img {
-        border: solid white 4px;
+        border: solid white 2.9px;
         margin: 0 20px 20px 0;
         width: 400px;
     }
