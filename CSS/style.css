@@ -1,14 +1,14 @@
-/* line 1, mini-opgave/CSS/style.scss */
+/* line 1, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 body {
   background-color: #f1f1f1;
   margin: 0;
   padding: 0; }
 
-/* line 7, mini-opgave/CSS/style.scss */
+/* line 7, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 .wrapper {
   margin: 0 auto; }
 
-/* line 11, mini-opgave/CSS/style.scss */
+/* line 11, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 header {
   background-image: url(/IMG/navigation_background.png);
   height: 150px;
@@ -17,89 +17,129 @@ header {
   flex-wrap: wrap;
   justify-content: space-around; }
 
-/* line 20, mini-opgave/CSS/style.scss */
+/* line 20, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 .logo {
   padding-top: 1%; }
 
-/* line 24, mini-opgave/CSS/style.scss */
+/* line 24, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 nav {
   padding-top: 2%; }
-  /* line 26, mini-opgave/CSS/style.scss */
+  /* line 26, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   nav li {
     list-style: none;
     display: inline-block; }
-  /* line 30, mini-opgave/CSS/style.scss */
+  /* line 30, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   nav a {
     text-transform: uppercase;
     text-decoration: none;
     padding-right: 18px;
     color: #777777;
     font-weight: bold; }
+  /* line 37, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  nav a:hover {
+    color: #000; }
 
-/* line 39, mini-opgave/CSS/style.scss */
+/* line 42, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-image: url(/IMG/main_background.png); }
 
-/* line 46, mini-opgave/CSS/style.scss */
+/* line 49, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-  /* line 50, mini-opgave/CSS/style.scss */
+  /* line 53, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   section article {
     width: 25%;
     background-color: #f1f1f1;
     opacity: 0.8; }
-  /* line 55, mini-opgave/CSS/style.scss */
+  /* line 58, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   section p {
     padding-left: 17%;
     padding-right: 17%;
     font-weight: bold; }
 
-/* line 62, mini-opgave/CSS/style.scss */
+/* line 65, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 .slideshow {
   width: 68%; }
+  /* line 67, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  .slideshow img:hover {
+    transform: scale(1.1); }
 
-/* line 65, mini-opgave/CSS/style.scss */
+/* line 72, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 produkterMain {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
 
-/* line 71, mini-opgave/CSS/style.scss */
+/* line 78, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 .produkter img {
   width: 49%;
   margin-bottom: 1px; }
 
-/* line 75, mini-opgave/CSS/style.scss */
+/* line 83, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 .produkter img:hover {
   transform: scale(1.1); }
 
-/* line 80, mini-opgave/CSS/style.scss */
+/* line 87, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 .info {
   padding-left: 25px;
   padding-top: 10px; }
-  /* line 83, mini-opgave/CSS/style.scss */
+  /* line 90, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   .info img {
     border: solid white 2.9px;
     margin: 0 20px 20px 0;
     width: 400px; }
-  /* line 88, mini-opgave/CSS/style.scss */
+  /* line 95, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+  .info img:hover {
+    transform: scale(1.1); }
+  /* line 98, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   .info img:nth-child(1) {
     margin-right: 35px; }
-  /* line 91, mini-opgave/CSS/style.scss */
+  /* line 101, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
   .info img:nth-child(2) {
     margin-right: 35px; }
 
-/* line 96, mini-opgave/CSS/style.scss */
+/* line 106, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
 footer {
   height: 55px;
   background-image: url(/IMG/footer_background.png);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
+
+/* line 114, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+form {
+  width: 21%;
+  padding-left: 4%; }
+
+/* line 119, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+/* line 130, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+input[type=submit] {
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+/* line 141, C:/Users/lass9782/Desktop/V3/Uge 22/miniopgave/mini-opgave/CSS/style.scss */
+input[type=submit]:hover {
+  background-color: blue; }
 
 /*# sourceMappingURL=style.css.map */
