@@ -40,9 +40,9 @@ nav {
     padding-right: 18px;
     color: #777777;
     font-weight: bold; }
-  /* line 51, mini-opgave/CSS/style.scss */
-  nav a:hover {
-    color: #000; }
+    /* line 50, mini-opgave/CSS/style.scss */
+    nav a:hover {
+      color: #000; }
 
 /*Nav end*/
 /*Main*/
@@ -80,75 +80,76 @@ section {
 
 /*Produkter CSS*/
 /* line 101, mini-opgave/CSS/style.scss */
-produkterMain {
+.produkterMain {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
   /* line 105, mini-opgave/CSS/style.scss */
-  produkterMain img {
+  .produkterMain img {
     width: 49%;
     margin-bottom: 1px; }
   /* line 109, mini-opgave/CSS/style.scss */
-  produkterMain img:hover {
+  .produkterMain img:hover {
     transform: scale(1.1); }
 
 /*Info box ( 3 billder )*/
-/* line 117, mini-opgave/CSS/style.scss */
-.info {
-  padding-left: 25px;
-  padding-top: 10px; }
-  /* line 120, mini-opgave/CSS/style.scss */
-  .info img {
-    border: solid white 2.9px;
-    margin: 0 20px 20px 0;
-    width: 400px; }
-  /* line 125, mini-opgave/CSS/style.scss */
-  .info img:hover {
-    transform: scale(1.1); }
-  /* line 128, mini-opgave/CSS/style.scss */
-  .info img:nth-child(1) {
-    margin-right: 35px; }
-  /* line 131, mini-opgave/CSS/style.scss */
-  .info img:nth-child(2) {
-    margin-right: 35px; }
-  /* line 134, mini-opgave/CSS/style.scss */
-  .info h2 {
-    position: absolute;
-    top: 600px;
-    left: 750px;
-    font-size: 3em;
-    width: 100%; }
-  /* line 141, mini-opgave/CSS/style.scss */
-  .info h2 span {
-    color: white;
-    font: bold 24px/45px Helvetica, Sans-Serif;
-    letter-spacing: -1px;
-    background: black;
-    /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px; }
-  /* line 150, mini-opgave/CSS/style.scss */
-  .info h2 span.spancer {
-    padding: 0 5px; }
+/* line 118, mini-opgave/CSS/style.scss */
+.info img {
+  border: solid white 2.9px;
+  width: 411px; }
+
+/* line 122, mini-opgave/CSS/style.scss */
+.info img:hover {
+  transform: scale(1.1); }
+
+/* line 125, mini-opgave/CSS/style.scss */
+.info img:nth-child(1) {
+  margin-right: 20px; }
+
+/* line 128, mini-opgave/CSS/style.scss */
+.info img:nth-child(2) {
+  margin-right: 15px; }
+
+/* line 131, mini-opgave/CSS/style.scss */
+.info h2 {
+  position: absolute;
+  top: 600px;
+  left: 750px;
+  font-size: 3em;
+  width: 100%; }
+
+/* line 138, mini-opgave/CSS/style.scss */
+.info h2 span {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px; }
+
+/* line 147, mini-opgave/CSS/style.scss */
+.info h2 span.spancer {
+  padding: 0 5px; }
 
 /*Club BS CSS*/
-/* line 158, mini-opgave/CSS/style.scss */
+/* line 155, mini-opgave/CSS/style.scss */
 .clubBS {
   width: 500px; }
-  /* line 160, mini-opgave/CSS/style.scss */
+  /* line 157, mini-opgave/CSS/style.scss */
   .clubBS img {
     width: 100%; }
 
-/* line 165, mini-opgave/CSS/style.scss */
+/* line 162, mini-opgave/CSS/style.scss */
 .Clubtext {
   background-color: #f1f1f1;
   opacity: 0.7; }
-  /* line 168, mini-opgave/CSS/style.scss */
+  /* line 165, mini-opgave/CSS/style.scss */
   .Clubtext p:hover {
-    background-color: blueviolet; }
+    background-color: lightgray; }
 
 /*Footer*/
-/* line 176, mini-opgave/CSS/style.scss */
+/* line 173, mini-opgave/CSS/style.scss */
 footer {
   height: 55px;
   background-image: url(/IMG/footer_background.png);
@@ -157,12 +158,12 @@ footer {
   justify-content: space-around; }
 
 /*Form*/
-/* line 187, mini-opgave/CSS/style.scss */
+/* line 184, mini-opgave/CSS/style.scss */
 form {
   width: 21%;
   padding-left: 4%; }
 
-/* line 192, mini-opgave/CSS/style.scss */
+/* line 189, mini-opgave/CSS/style.scss */
 input[type=text],
 select {
   width: 100%;
@@ -173,10 +174,10 @@ select {
   border-radius: 4px;
   box-sizing: border-box; }
 
-/* line 203, mini-opgave/CSS/style.scss */
+/* line 200, mini-opgave/CSS/style.scss */
 input[type=submit] {
   width: 100%;
-  background-color: blueviolet;
+  background-color: green;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -184,8 +185,8 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer; }
 
-/* line 214, mini-opgave/CSS/style.scss */
+/* line 211, mini-opgave/CSS/style.scss */
 input[type=submit]:hover {
-  background-color: blue; }
+  background-color: forestgreen; }
 
 /*# sourceMappingURL=style.css.map */

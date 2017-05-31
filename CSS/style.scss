@@ -47,9 +47,9 @@ nav {
         padding-right: 18px;
         color: #777777;
         font-weight: bold;
-    }
-    a:hover {
-        color: #000;
+        &:hover {
+            color: #000;
+        }
     }
 }
 
@@ -98,10 +98,10 @@ section {
 
 /*Produkter CSS*/
 
-produkterMain {
+.produkterMain {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;    
     img {
         width: 49%;
         margin-bottom: 1px;
@@ -115,21 +115,18 @@ produkterMain {
 /*Info box ( 3 billder )*/
 
 .info {
-    padding-left: 25px;
-    padding-top: 10px;
     img {
         border: solid white 2.9px;
-        margin: 0 20px 20px 0;
-        width: 400px;
+        width: 411px;
     }
     img:hover {
         transform: scale(1.1);
     }
     img:nth-child(1) {
-        margin-right: 35px;
+        margin-right: 20px;
     }
     img:nth-child(2) {
-        margin-right: 35px;
+          margin-right: 15px;
     }
     h2 {
         position: absolute;
@@ -166,7 +163,7 @@ produkterMain {
     background-color: #f1f1f1;
     opacity: 0.7;
     p:hover {
-        background-color: blueviolet;
+        background-color: lightgray;
     }
 }
 
@@ -202,7 +199,7 @@ select {
 
 input[type=submit] {
     width: 100%;
-    background-color: blueviolet;
+    background-color: green;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -212,5 +209,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: blue;
+    background-color: forestgreen;
 }
